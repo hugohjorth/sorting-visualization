@@ -7,11 +7,11 @@ Implemented and working:
   -Insertion sort (needs optimization)
 
 Almost done:
-  -Quick Sort
-  -Bubble Sort
+  - Quick Sort
+  - Bubble Sort
 
 Plans:
-  -Binary search
-  -Bogosort :)
-  -Maybe some cool algorithms on weird and funny data structures.
+  - Binary search
+  - Bogosort :)
+  - Maybe some cool algorithms on weird and funny data structures.
   
