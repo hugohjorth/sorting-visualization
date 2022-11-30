@@ -43,14 +43,12 @@ def partion(arr, low, high):
 #TODO implement step through functionality
 def quickSort(arr, low, high):
     if low < high:
-        temp = arr
         pivot = partion(arr, low, high)
         quickSort(arr, low, pivot-1)
         quickSort(arr, pivot+1, high)
-        print(temp)
 
 # test = [9,5,3,10,2,12]
-# quickSort(test, 0, len(test)-1)
+# print(quickSort(test, 0, len(test)-1))
 # print(test)
 #median of three - one of the better pivot selector for Quick Sort
 def medianOfThree(arr):
